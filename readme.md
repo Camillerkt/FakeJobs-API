@@ -39,7 +39,7 @@ If you want to search for everything without any particular parameter then just 
 
 ### Contribution
 
-If you want to contribute to improve the REST API by adding countries for example, please contact me :
+If you want to contribute to improve the REST API by adding jobs for example, please contact me :
 camillerak05@gmail.com
 
 ### Author
