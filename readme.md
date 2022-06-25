@@ -5,6 +5,10 @@
 This easy-to-use REST API offers you free fictitious job offers to integrate into your test applications.
 The API runs on **NodeJS** using the **ExpressJS** framework.
 
+### Example
+
+Here is an example front-end application I developed in **ReactJS** that uses this REST API : https://example.fakejobsapi.camillerakoto.fr
+
 ### How to use the REST API
 
 Here is an example of a GET request response :
