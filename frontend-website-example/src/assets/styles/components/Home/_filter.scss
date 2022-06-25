@@ -1,0 +1,56 @@
+.Filter {
+  grid-area: 1 / 1 / 2 / 3;
+
+  .container {
+    margin-bottom: 20px;
+
+    #location-text {
+      font-weight: 600;
+      color: $placeholder-color;
+    }
+
+    .input-container {
+      margin-top: 10px;
+      position: relative;
+
+      input {
+        padding: 15px 45px;
+        width: 100%;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+      }
+      input::placeholder {
+        color: $placeholder-color;
+      }
+
+      label {
+        position: absolute;
+        color: $placeholder-color;
+        left: 15px;
+        top: 12px;
+
+        span {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .choice-container {
+    label {
+      margin-left: 10px;
+      font-size: 15px;
+    }
+
+    input {
+      height: 15px;
+      width: 15px;
+      accent-color: $blue;
+    }
+  }
+  .choice-container:not(.container) {
+    margin-bottom: 10px;
+  }
+}

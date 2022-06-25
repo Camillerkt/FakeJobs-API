@@ -1,0 +1,21 @@
+.Home {
+  color: $text-color;
+
+  .main-home-section {
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Home {
+    .main-home-section {
+      display: block;
+    }
+  }
+}

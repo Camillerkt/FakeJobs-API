@@ -1,0 +1,63 @@
+.Header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  border-radius: 10px;
+  height: 138px;
+
+  background: url("../../../images/backgroundImg.png") no-repeat center;
+  background-size: cover;
+
+  .input-container {
+    position: relative;
+    width: 50%;
+
+    input {
+      padding: 15px 45px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      width: 100%;
+    }
+    input::placeholder {
+      color: $placeholder-color;
+      text-overflow: ellipsis;
+    }
+
+    label {
+      position: absolute;
+      left: 15px;
+      top: 12px;
+      color: $placeholder-color;
+
+      span {
+        font-size: 20px;
+      }
+    }
+
+    button {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+
+      background-color: $blue;
+      border: none;
+      outline: none;
+      border-radius: 2px;
+      color: white;
+      padding: 10px 30px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .Header {
+    .input-container {
+      width: 90%;
+    }
+  }
+}

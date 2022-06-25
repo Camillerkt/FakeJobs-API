@@ -1,0 +1,33 @@
+.Navigation {
+  grid-area: 1 / 1 / 2 / 2;
+
+  #back {
+    cursor: pointer;
+    color: $blue;
+    margin-bottom: 30px;
+
+    label {
+      position: absolute;
+    }
+
+    p {
+      margin-left: 35px;
+    }
+  }
+
+  #application {
+    #apply {
+      font-weight: 600;
+      color: $placeholder-color;
+    }
+
+    #description {
+      font-size: 15px;
+
+      span {
+        color: $blue;
+        cursor: pointer;
+      }
+    }
+  }
+}

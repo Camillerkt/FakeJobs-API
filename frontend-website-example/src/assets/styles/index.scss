@@ -1,0 +1,11 @@
+@import "./settings";
+
+@import "./pages/home";
+@import "./pages/job";
+
+@import "./components/Home/header";
+@import "./components/Home/filter";
+@import "./components/Home/jobs";
+@import "./components/Job/navigation";
+@import "./components/Job/jobDescription";
+@import "./components/Home/Jobs/pagination";
