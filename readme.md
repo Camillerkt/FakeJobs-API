@@ -12,17 +12,17 @@ Here is an example of a GET request response :
     [
     	{
     		"id": "0",
-    	    "name": "Microsoft",
-    	    "author": "microsoft@company.com",
-    	    "date": "06-24-2022",
-    	    "salary": "3000 USD",
-    	    "fulltime": false,
-    	    "city": "London",
-    	    "zipcode": "80000",
-    	    "country": "United Kingdom",
-    	    "title": "Engineer in Machine Learning",
-    	    "content": "Lorem ipsum dolor sit...",
-    	    "logo": "https://cours-informatique-gratuit.fr/wp-content/uploads/2014/05/microsoft.png"
+    		"name": "Microsoft",
+    		"author": "microsoft@company.com",
+    		"date": "06-24-2022",
+    		"salary": "3000 USD",
+    		"fulltime": false,
+    		"city": "London",
+    		"zipcode": "80000",
+    		"country": "United Kingdom",
+    		"title": "Engineer in Machine Learning",
+    		"content": "Lorem ipsum dolor sit...",
+    		"logo": "https://cours-informatique-gratuit.fr/wp-content/uploads/2014/05/microsoft.png"
     	}
     ]
 
