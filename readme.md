@@ -11,6 +11,7 @@ Here is an example of a GET request response :
 
     [
     	{
+    		"id": "0",
     	    "name": "Microsoft",
     	    "author": "microsoft@company.com",
     	    "date": "06-24-2022",
@@ -31,7 +32,7 @@ You can therefore use this type of GET request :
 
 Of course, you can pass all the above attributes as parameters to the URL :
 
-    name, author, date, salary, fulltime (false or true), city, zipcode, country, title, content, logo (not useful)
+    id, name, author, date, salary, fulltime (false or true), city, zipcode, country, title, content, logo (not useful)
 
 If you want to search for everything without any particular parameter then just go to this URL :
 
